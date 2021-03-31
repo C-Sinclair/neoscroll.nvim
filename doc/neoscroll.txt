@@ -44,12 +44,12 @@ OPTIONS                                                       *neoscroll-options
 |g:neoscroll_hide_cursor| (default: true)
     If 'termguicolors' is set hide the cursor while scrolling.
 
-|g:neoscroll_time_step_move_cursor| (default: 8)
-    Time in milliseconds between one single line scroll and the next one when
+|g:neoscroll_time_step_cursor_scroll| (default: 8)
+    Time (in milliseconds) between one single line scroll and the next one when
     moving the cursor and scrolling simultaneously.
 
-|g:neoscroll_time_step_no_move_cursor| (default: 20)
-    Time in milliseconds between one single line scroll and the next one when
+|g:neoscroll_time_step_no_cursor_scroll| (default: 20)
+    Time (in milliseconds) between one single line scroll and the next one when
     scrolling without moving the cursor.
     ~
 |g:neoscroll_stop_eof| (default: false)
